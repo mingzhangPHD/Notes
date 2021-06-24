@@ -51,5 +51,16 @@ Git fetch origin master
 
 git fetch origin master:tmp
 git diff tmp 
-git merge tmp![image](https://user-images.githubusercontent.com/15770360/123260317-57c81480-d4ed-11eb-9f09-f823cfeaf66c.png)
+git merge tmp
+
+# 2. Git pull: 相当于从远程获取最新版本并merge到本地
+git pull origin master
+
+
+# git修改文件后，怎么提交到远程仓库
+
+https://blog.csdn.net/nly19900820/article/details/73613654
+
+
+
 
