@@ -42,3 +42,14 @@ git push -u origin --tags
   
      git push origin master -f
 
+
+# Git fetch: 相当于从远程获取最新版本到本地，不会自动merge
+
+Git fetch origin master
+ git log -p master..origin/master
+ git merge origin/master
+
+git fetch origin master:tmp
+git diff tmp 
+git merge tmp![image](https://user-images.githubusercontent.com/15770360/123260317-57c81480-d4ed-11eb-9f09-f823cfeaf66c.png)
+
